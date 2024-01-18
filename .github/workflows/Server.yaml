@@ -1,0 +1,23 @@
+name: HCL DevOps Test Hub
+
+on: workflow_dispatch
+
+jobs:
+    TestHub-Action:
+        runs-on: self-hosted
+        name: HCL DevOps Test Hub
+        steps:
+         - name: Execute Test
+           uses: HCL-TECH-SOFTWARE/devops-test-hub-action@main
+           with:
+            serverUrl: 
+            offlineToken: 
+            teamspace: 
+            project: 
+            branch: 
+            assetId: 
+            environment: 
+            datasets:
+            labels: 
+            secretsCollection: 
+            variables: 

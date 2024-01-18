@@ -1,0 +1,30 @@
+{
+  "name": "devops-test-hub-action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HCL-TECH-SOFTWARE/devops-test-hub-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/HCL-TECH-SOFTWARE/devops-test-hub-action/issues"
+  },
+  "homepage": "https://github.com/HCL-TECH-SOFTWARE/devops-test-hub-action/blob/main/README.md",
+  "dependencies": {
+    "@actions/core": "^1.9.1",
+    "@actions/github": "^5.0.3",
+    "@vercel/ncc": "^0.34.0",
+    "axios": "^0.26.1",
+    "htmlparser2": "^4.1.0",
+    "path": "^0.12.7",
+    "url": "^0.11.0",
+    "urlencode": "^1.1.0"
+  }
+}
