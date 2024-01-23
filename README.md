@@ -8,11 +8,11 @@ This action enables the ability to run various tests from a HCL DevOps Test Hub 
 ## Prerequisites to run this action
 
 Configure a self hosted runner on a suitable machine
-1. The host machine will need to be able to access the OneTest Server that will be used to run tests.
+1. The host machine will need to be able to access the DevOps Test Hub Server that will be used to run tests.
 2. [Add a self-hosted runner](https://docs.github.com/en/actions/hosting-your-own-runners/adding-self-hosted-runners) at an appropriate level, ensure you have configured network access.
 3. If you are using more than one runner [assign it a suitable label](https://docs.github.com/en/actions/hosting-your-own-runners/using-labels-with-self-hosted-runners) and note this for later.
 **OR**
-1. An instance of OneTest Server that can be accessed from the GitHub's hosted runners
+1. An instance of DevOps Test Hub Server that can be accessed from the GitHub's hosted runners
 
 ### Setup
 In the repository you want to apply the action to

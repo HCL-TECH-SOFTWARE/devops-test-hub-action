@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "ncc build index.js -o dist"
   },
   "repository": {
     "type": "git",
@@ -18,13 +19,15 @@
   },
   "homepage": "https://github.com/HCL-TECH-SOFTWARE/devops-test-hub-action/blob/main/README.md",
   "dependencies": {
-    "@actions/core": "^1.9.1",
-    "@actions/github": "^5.0.3",
-    "@vercel/ncc": "^0.34.0",
+    "@actions/core": "^1.10.1",
+    "@actions/github": "^5.1.1",
+    "path": "^0.12.7",
     "axios": "^0.26.1",
     "htmlparser2": "^4.1.0",
     "path": "^0.12.7",
     "url": "^0.11.0",
     "urlencode": "^1.1.0"
-  }
-}
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.34.0"
+  }}
