@@ -38,5 +38,5 @@ inputs:
     description: 'Optional. Variables corresponding to the test. You must enter the variables in the format: name_of_the_variable=value_of_the_variable'
     required: false   
 runs:
-  using: 'node16'
+  using: 'node20'
   main: 'dist/index.js' 
